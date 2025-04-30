@@ -2,18 +2,12 @@ import React, { useState } from 'react';
 import Child1 from './Child1';
 
 const Parent1 = () => {
-  const [userData, setUserData] = useState({ name: '', age: '' });
-
-  const getDataFromChild = (data) => {
-    setUserData(data);
-  };
-
+  const [user, setUser] = useState({ name: 'upendra', age: 10 });
   return (
     <div>
-      <h1>Parent Component</h1>
-      <h2>Name: {userData.name}</h2>
-      <h2>Age: {userData.age}</h2>
-      <Child1 getData={getDataFromChild} />
+      <h1>{user.name}</h1>
+      <h2>{user.age}</h2>
+      <Child1 getData={setUser}></Child1>
     </div>
   );
 };

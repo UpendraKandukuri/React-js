@@ -1,24 +1,27 @@
 import React from 'react';
 
 const Child1 = ({ getData }) => {
-  const handleInputChange = (e) => {
+  const handleChange = (e) => {
+    console.log(e.target.name);
     const { name, value } = e.target;
-    getData((prevData) => ({ ...prevData, [name]: value }));
+    getData((preUser) => {
+      return { ...preUser, [name]: value };
+    });
   };
-
   return (
     <div>
       <input
         type="text"
         name="name"
-        placeholder="Enter name"
-        onChange={handleInputChange}
+        onChange={handleChange}
+        className="border"
       />
+      <br></br>
       <input
-        type="number"
+        type="text"
         name="age"
-        placeholder="Enter age"
-        onChange={handleInputChange}
+        onChange={handleChange}
+        className="border"
       />
     </div>
   );
