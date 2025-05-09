@@ -33,27 +33,30 @@ const Payment = () => {
   };
 
   return (
-    <div className="p-14">
-      <h1 className="text-xl font-semibold mb-4">Payment</h1>
-      <div className="space-y-4">
+    <div className="min-h-screen flex items-center justify-center bg-gray-100 p-4">
+      <div className="bg-white shadow-xl rounded-lg p-8 w-full max-w-md">
+        <h1 className="text-2xl font-bold mb-6 text-center">Payment Page</h1>
+
         {totalPrice.length > 0 && (
-          <div className="space-y-3">
-            <h1 className="text-lg">
-              Total Price: ₹{totalPrice[0].totalPrice}
-            </h1>
+          <div className="space-y-4">
+            <div className="text-lg font-medium text-gray-700">
+              Total Price:{' '}
+              <span className="text-black">{totalPrice[0].totalPrice}/-</span>
+            </div>
+
             <input
               type="number"
               value={amount}
               onChange={handleChange}
-              className="border border-gray-300 rounded p-2 w-1/2"
               placeholder="Enter payment amount"
+              className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
             />
-            <br />
+
             <button
-              className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600"
+              className="w-fit px-4 flex justify-center cursor-pointer bg-blue-600 text-white py-2 rounded-md font-semibold hover:bg-blue-700 transition duration-200"
               onClick={handleClick}
             >
-              Pay
+              Pay Now
             </button>
           </div>
         )}

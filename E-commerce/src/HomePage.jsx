@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import ProductsPage from './ProductsPage';
 import men from './assets/men.png';
 import jewelery from './assets/Jewelery.png';
 import electronics from './assets/electronics.png';
@@ -18,7 +17,7 @@ const HomePage = () => {
   return (
     <div className="pt-15">
       <div>
-        <h1 className="flex justify-center pt-4 text-xl md:text-2xl">
+        <h1 className="flex justify-center pt-4 text-xl md:text-2xl font-serif">
           Categories
         </h1>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 m-4 md:m-10">
@@ -64,8 +63,8 @@ const HomePage = () => {
           </div>
         </div>
       </div>
-      <div>
-        <h1 className="flex justify-center text-xl md:text-2xl">
+      <div className="bg-green-100 p-3">
+        <h1 className="flex justify-center text-xl md:text-2xl font-serif pt-4">
           Featured Products
         </h1>
         <div>

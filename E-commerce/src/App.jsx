@@ -3,7 +3,7 @@ import Routing from './Routing';
 
 const App = () => {
   return (
-    <div className="bg-pink-50 w-full min-h-screen">
+    <div className="bg-green-50 w-full min-h-screen">
       <Routing />
     </div>
   );

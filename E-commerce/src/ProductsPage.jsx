@@ -23,14 +23,17 @@ const ProductsPage = () => {
 
   return (
     <div className="pt-15">
-      <h1 className="text-xl flex justify-center m-5"> Products page</h1>
+      <h1 className="flex justify-center m-5 text-xl md:text-2xl font-serif">
+        Products page
+      </h1>
       <div className="grid grid-cols-2 md:grid-cols-4 p-2 gap-6 mx-10">
         {isLoading && (
-          <p className="flex justify-center items-center text-2xl">
-            Loading Products...
-          </p>
+          <div className="flex justify-center items-center col-span-full h-40">
+            <div className="w-12 h-12 border-4 border-blue-500 border-dashed rounded-full animate-spin"></div>
+            <h1 className="text-xl">Loading...</h1>
+          </div>
         )}
-        {isError && <p>{error.message}</p>}
+        {isError && <p className="text-xl">{error.message}</p>}
         {products &&
           products.map((product) => {
             return (
@@ -45,7 +48,7 @@ const ProductsPage = () => {
                 <h1 className="text-xl">
                   Price: {Math.floor(product.price)}/-
                 </h1>
-                <button className="border border-gray-50 bg-blue-500 hover:bg-blue-700 p-2 rounded-md text-white w-fit">
+                <button className="border border-gray-50 bg-blue-500 hover:bg-blue-700  transition duration-500 p-2 rounded-md text-white w-fit">
                   <Link to={`/product/${product.id}`}>Quick Look </Link>
                 </button>
               </div>
