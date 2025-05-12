@@ -21,7 +21,7 @@ ChartJS.register(
   Legend
 );
 
-const LineChart = () => {
+const Linechart = () => {
   const labels = Array.from({ length: 15 }, (_, i) => (i + 1) * 2);
 
   const data = {
@@ -93,4 +93,4 @@ const LineChart = () => {
   );
 };
 
-export default LineChart;
+export default Linechart;

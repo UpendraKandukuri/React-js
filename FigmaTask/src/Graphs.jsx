@@ -5,15 +5,16 @@ import trenddown from './assets/trenddown.svg';
 import eye from './assets/eye.svg';
 import lamp from './assets/lamp.svg';
 import lightning from './assets/lightning.svg';
+import Linechart from './LineChart';
 
-import LineChart from './LineChart';
+
 
 const Graphs = () => {
   return (
     <div className="flex flex-col sm:flex-row w-full sm:gap-4 space-y-5 sm:space-y-0 items-stretch">
       <div className="hidden sm:flex flex-col flex-[3] border border-gray-300 rounded-3xl p-4 space-y-5">
         <div>
-          <LineChart />
+          <Linechart />
         </div>
         <div className="flex justify-between mb-2">
           <div className="flex space-x-2">
@@ -40,7 +41,7 @@ const Graphs = () => {
       </div>
       <div className="sm:hidden border border-gray-400 rounded-3xl p-4">
         <div className='h-50 w-full'>
-          <LineChart />
+          <Linechart />
         </div>
         <div className="flex flex-col space-y-3">
           <div className="flex space-x-3">
