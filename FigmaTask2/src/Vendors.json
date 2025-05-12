@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "name": "Blox",
+    "url": "getblox.com",
+    "performance": 28,
+    "lastChecked": "2026-07-15",
+    "categories": ["Database", "AI", "Consumer"]
+  },
+  {
+    "id": 2,
+    "name": "Brotha Platforms",
+    "url": "brotha.gg",
+    "performance": 12,
+    "lastChecked": "2026-07-08",
+    "categories": ["Security"]
+  },
+  {
+    "id": 3,
+    "name": "Layerz Softwares",
+    "url": "layerz.io",
+    "performance": 71,
+    "lastChecked": "2026-07-01",
+    "categories": ["Machine Learning", "Design"]
+  },
+  {
+    "id": 4,
+    "name": "Linez Technologies",
+    "url": "linez.io",
+    "performance": 29,
+    "lastChecked": "2026-06-28",
+    "categories": ["Tech", "UI", "AR"]
+  },
+  {
+    "id": 5,
+    "name": "Datashift",
+    "url": "datashift.ai",
+    "performance": 65,
+    "lastChecked": "2026-07-10",
+    "categories": ["AI","Cloud"]
+  },
+  {
+    "id": 6,
+    "name": "CyberCore",
+    "url": "cybercore.net",
+    "performance": 47,
+    "lastChecked": "2026-07-05",
+    "categories": ["Security", "Infrastructure"]
+  },
+  {
+    "id": 7,
+    "name": "Streamlytics",
+    "url": "streamlytics.io",
+    "performance": 54,
+    "lastChecked": "2026-06-30",
+    "categories": ["Analytics", "Consumer"]
+  },
+  {
+    "id": 8,
+    "name": "SynthStack",
+    "url": "synthstack.dev",
+    "performance": 39,
+    "lastChecked": "2026-06-25",
+    "categories": ["Machine Learning", "Tech"]
+  },
+  {
+    "id": 9,
+    "name": "NexBase",
+    "url": "nexbase.com",
+    "performance": 22,
+    "lastChecked": "2026-07-11",
+    "categories": ["Database", "Cloud"]
+  },
+  {
+    "id": 10,
+    "name": "Vizionix",
+    "url": "vizionix.ai",
+    "performance": 83,
+    "lastChecked": "2026-07-13",
+    "categories": ["AI", "Visualization", "Design"]
+  }
+]
