@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "image":"alice",
+    "fullName": "Alice Smith",
+    "username": "@alicesmith",
+    "paymentMethod": "VISA",
+    "cardEnding": "**** **18",
+    "categories": ["Arts", "Business", "Travel"],
+    "clickthroughPercentage": 40
+  },
+  {
+    "id": 2,
+     "image":"bob",
+    "fullName": "Bob Johnson",
+    "username": "@bobjohnson",  
+    "paymentMethod": "MasterCard",
+    "cardEnding": "**** **99",
+    "categories": ["Books", "Computers"],
+    "clickthroughPercentage": 10
+  },
+  {
+    "id": 3,
+     "image":"clara",
+    "fullName": "Clara Garcia",
+    "username": "@claragarcia",
+    "paymentMethod": "MasterCard",
+    "cardEnding": "**** **14",
+    "categories": ["Kitchen", "Books"],
+    "clickthroughPercentage": 80
+  },
+  {
+    "id": 4,
+     "image":"david",
+    "fullName": "David Brown",
+    "username": "@davidbrown",
+    "paymentMethod": "VISA",
+    "cardEnding": "**** **50",
+    "categories": ["Apparel", "Sale"],
+    "clickthroughPercentage": 60
+  },
+  {
+    "id": 5,
+     "image":"ema",
+    "fullName": "Emma Lee",
+    "username": "@emmalee",
+    "paymentMethod": "MasterCard",
+    "cardEnding": "**** **19",
+    "categories": ["Computers"],
+    "clickthroughPercentage": 40
+  },
+  {
+    "id": 6,
+     "image":"frank",
+    "fullName": "Frank Turner",
+    "username": "@frankturner",
+    "paymentMethod": "VISA",
+    "cardEnding": "**** **75",
+    "categories": ["Fitness", "Sale"],
+    "clickthroughPercentage": 25
+  },
+  {
+    "id": 7,
+     "image":"grace",
+    "fullName": "Grace Kim",
+    "username": "@gracekim",
+    "paymentMethod": "MasterCard",
+    "cardEnding": "**** **23",
+    "categories": ["Sale", "Fashion"],
+    "clickthroughPercentage": 55
+  },
+  {
+    "id": 8,
+     "image":"alice",
+    "fullName": "Henry Adams",
+    "username": "@henryadams",
+    "paymentMethod": "VISA",
+    "cardEnding": "**** **34",
+    "categories": ["Fitness", "Books"],
+    "clickthroughPercentage": 75
+  },
+  {
+    "id": 9,
+     "image":"clark",
+    "fullName": "Isabella Moore",
+    "username": "@isabellamoore",
+    "paymentMethod": "MasterCard",
+    "cardEnding": "**** **89",
+    "categories": ["Sale", "Kitchen"],
+    "clickthroughPercentage": 35
+  },
+  {
+    "id": 10,
+     "image":"alice",
+    "fullName": "Jack Wilson",
+    "username": "@jackwilson",
+    "paymentMethod": "VISA",
+    "cardEnding": "**** **02",
+    "categories": ["Automotive", "Business"],
+    "clickthroughPercentage": 50
+  }
+]

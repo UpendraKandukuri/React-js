@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "SusanWhite",
+    "activity": "Purchased",
+    "value": "2 items"
+  },
+  {
+    "id": 2,
+    "name": "Jerome Grey",
+    "activity": "Refunded",
+    "value": "1 item"
+  },
+  {
+    "id": 3,
+    "name": "Azunyan U. Wu",
+    "activity": "Gifted",
+    "value": "$50"
+  },
+  {
+    "id": 4,
+    "name": "X AE B-19",
+    "activity": "Purchased",
+    "value": "4 items"
+  },
+  {
+    "id": 5,
+    "name": "Emily Stark",
+    "activity": "Gifted",
+    "value": "$20"
+  },
+  {
+    "id": 6,
+    "name": "Liam Patel",
+    "activity": "Refunded",
+    "value": "2 items"
+  },
+  {
+    "id": 7,
+    "name": "Olivia Cheng",
+    "activity": "Purchased",
+    "value": "1 item"
+  },
+  {
+    "id": 8,
+    "name": "Ethan Rivera",
+    "activity": "Gifted",
+    "value": "$100"
+  },
+  {
+    "id": 9,
+    "name": "Sophia Kim",
+    "activity": "Purchased",
+    "value": "3 items"
+  },
+  {
+    "id": 10,
+    "name": "Noah D'Souza",
+    "activity": "Refunded",
+    "value": "$35"
+  }
+]
