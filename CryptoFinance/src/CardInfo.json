@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1,
+    "walletName": "XYZ Wallet",
+    "amount": "$250,5",
+    "cardNumber": "444 221 224 ***",
+    "gradient": "bg-gradient-to-r from-green-400 to-green-600"
+  },
+  {
+    "id": 2,
+    "walletName": "Main Wallet",
+    "amount": "$45.500,12",
+    "cardNumber": "444 221 224 ***",
+    "gradient": "bg-gradient-to-r from-pink-500 to-purple-500"
+  },
+  {
+    "id": 3,
+    "walletName": "Crypto Wallet",
+    "amount": "$3.200,00",
+    "cardNumber": "555 667 888 ***",
+    "gradient": "bg-gradient-to-r from-blue-500 to-indigo-600"
+  }
+  
+]
