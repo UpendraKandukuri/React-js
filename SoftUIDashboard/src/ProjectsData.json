@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "company": "Soft UI Shopify Version",
+    "image":"shopify",
+    "members": ["alice", "bob", "smith", "alexa"],
+    "budget": "$14,000",
+    "completion": "60%",
+    "status": "Working"
+  },
+  {
+    "id": 2,
+    "company": "Progress Track",
+     "image":"atlassian",
+    "members": ["alice", "smith"],
+    "budget": "$3,000",
+    "completion": "10%",
+    "status": "Working"
+  },
+  {
+    "id": 3,
+    "company": "Fix Platform Errors",
+     "image":"slack",
+    "members": ["bob", "alice"],
+    "budget": "Not Set",
+    "completion": "100%",
+    "status": "Completed"
+  },
+  {
+    "id": 4,
+    "company": "Launch new Mobile App",
+     "image":"spotify",
+    "members": ["bob", "alexa"],
+    "budget": "$20,600",
+    "completion": "100%",
+    "status": "Completed"
+  },
+  {
+    "id": 5,
+    "company": "Add the New Landing Page",
+     "image":"webdev",
+    "members": ["alice", "bob", "smith"],
+    "budget": "$4,000",
+    "completion": "80%",
+    "status": "Working"
+  },
+  {
+    "id": 6,
+    "company": "Redesign Online Store",
+     "image":"invision",
+    "members": ["alexa", "bob"],
+    "budget": "$2,000",
+    "completion": "cancel",
+    "status": "Canceled"
+  }
+]

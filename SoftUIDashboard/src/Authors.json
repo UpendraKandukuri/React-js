@@ -1,0 +1,63 @@
+
+[
+  {
+    "id": 1,
+    "name": "Michael John",
+    "image":"michael",
+    "email": "michael@mail.com",
+    "function": "Manager",
+    "department": "Organization",
+    "status": "ONLINE",
+    "employed": "23/04/18"
+  },
+  {
+    "id": 2,
+    "name": "Alexa Liras",
+     "image":"alexa",
+    "email": "alexa@mail.com",
+    "function": "Programator",
+    "department": "Developer",
+    "status": "OFFLINE",
+    "employed": "23/12/20"
+  },
+  {
+    "id": 3,
+    "name": "Laure Perrier",
+     "image":"laure",
+    "email": "laure@mail.com",
+    "function": "Executive",
+    "department": "Projects",
+    "status": "ONLINE",
+    "employed": "13/04/19"
+  },
+  {
+    "id": 4,
+    "name": "Miriam Eric",
+     "image":"miriam",
+    "email": "miriam@mail.com",
+    "function": "Marketing",
+    "department": "Organization",
+    "status": "ONLINE",
+    "employed": "03/04/21"
+  },
+  {
+    "id": 5,
+    "name": "Richard Gran",
+     "image":"michael",
+    "email": "richard@mail.com",
+    "function": "Manager",
+    "department": "Organization",
+    "status": "OFFLINE",
+    "employed": "23/03/20"
+  },
+  {
+    "id": 6,
+    "name": "John Levi",
+     "image":"john",
+    "email": "john@mail.com",
+    "function": "Tester",
+    "department": "Developer",
+    "status": "OFFLINE",
+    "employed": "14/04/17"
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "date": "March, 01, 2021",
+    "invoiceNumber": "#MS-415646",
+    "amount": "$180"
+  },
+  {
+    "id": 2,
+    "date": "February, 12, 2021",
+    "invoiceNumber": "#RV-126749",
+    "amount": "$250"
+  },
+  {
+    "id": 3,
+    "date": "April, 05, 2020",
+    "invoiceNumber": "#FB-212562",
+    "amount": "$550"
+  },
+  {
+    "id": 4,
+    "date": "June, 25, 2019",
+    "invoiceNumber": "#QW-103578",
+    "amount": "$400"
+  },
+  {
+    "id": 5,
+    "date": "March, 03, 2019",
+    "invoiceNumber": "#AR-803481",
+    "amount": "$700"
+  }
+]
